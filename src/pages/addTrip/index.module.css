@@ -1,0 +1,41 @@
+.body {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: 100%;
+  display: inline-block;
+  overflow: auto;
+  transition: 1s;
+}
+
+.form {
+  width: 400px;
+  padding: 5px;
+  float: left;
+}
+.map {
+  float: right;
+}
+.form input {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.img {
+  width: 300px;
+  float: right;
+  z-index: 2;
+}
+
+.calender {
+  padding: 5px;
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: baseline;
+  justify-items: center;
+  align-self: center;
+}
+
+.to {
+  font-size: 20px;
+}
